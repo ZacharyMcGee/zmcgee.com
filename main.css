@@ -1,6 +1,7 @@
 /* Google Fonts */
-@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300');
 
 
 /* Global */
@@ -175,9 +176,11 @@ img{
 .bio{
   margin: 3% auto;
   width: 100%;
-  font-family: 'Anonymous Pro', monospace;
-  color: rgba(0,0,0,.75);
-  font-size: 1.43vw;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  color: #2e2e2e;
+  letter-spacing: .01rem;
+  line-height: 1.75rem;
 }
 
 .line-1{
@@ -240,7 +243,7 @@ img{
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #e4e4e4;
     border-bottom: 2px solid #6299ed;
 }
 
@@ -265,13 +268,13 @@ img{
       -ms-animation: fadein .5s; /* Internet Explorer */
        -o-animation: fadein .5s; /* Opera < 12.1 */
           animation: fadein .5s;
-          font-size: 28px; /* Increased text to enable scrolling */
           padding: 0px 10px;
 	clear:left;
 	float:left;
 	width:100%;
 	overflow:hidden;
 }
+
 #container3 {
 	clear:left;
 	float:left;
@@ -299,6 +302,7 @@ img{
 	position:relative;
 	left:77%;
   padding: 4px;
+  padding-top: 15px;
 }
 #col2 {
 	float:left;
@@ -307,6 +311,7 @@ img{
 	left:80%;
 	overflow:hidden;
     padding: 4px;
+      padding-top: 15px;
 }
 #col3 {
 	float:left;
@@ -315,6 +320,7 @@ img{
 	left:83%;
 	overflow:hidden;
     padding: 4px;
+      padding-top: 15px;
 }
 #col4 {
 	float:left;
@@ -323,6 +329,24 @@ img{
 	left:86%;
 	overflow:hidden;
   padding: 4px;
+    padding-top: 15px;
+}
+
+.card-title{
+  margin-bottom: 5px;
+}
+
+.card-title a:link, a:visited{
+  color: #24292e;
+  margin: 0px;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.card-title a:hover, a:active{
+  color: #e1e1e1;
+  margin: 0px;
+  text-decoration: none;
 }
 
 /* tree */
