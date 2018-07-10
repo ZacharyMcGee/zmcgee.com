@@ -10,7 +10,7 @@
         if ($result->num_rows > 0) {
             $colindex = 1;
             while($row = $result->fetch_assoc()) {
-                echo "<div id=\"col" . $colindex . "\"><div class=\"card\"><div class=\"card-title\"><a href=\"" . "?post=" . $row["id"] . "\"/>" . $row["title"] . "</a></div><a href=\"" . "?post=" . $row["id"] . "\"><img src=\"" . $row["featuredimg"] . "\"></a></div></div>";
+							echo "<div id=\"col" . $colindex . "\"><div class=\"card\"><div class=\"card-title\"><a href=\"" . "?post=" . $row["id"] . "\"/>" . $row["title"] . "</a></div><a href=\"" . "?post=" . $row["id"] . "\"><img src=\"" . $row["featuredimg"] . "\"></a></div></div>";
                 if($colindex == 4){
                   $colindex = 1;
                 }
