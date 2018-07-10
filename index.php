@@ -15,18 +15,10 @@ if(isset($_GET['category'])){
   $category = $_GET["category"];
   include 'category.php';
 }
-else if(isset($_GET['page']))
+else if(isset($_GET['post']))
 {
-  $page = $_GET["category"];
-  $filename = $page . '.html';
-
-  if(file_exists($filename)){
-    getPage($filename);
-  }
-  else
-  {
-    include 'frontpage.html';
-  }
+  $post = $_GET["post"];
+  include 'post.php';
 }
 else
 {
