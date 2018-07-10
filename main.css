@@ -334,6 +334,11 @@ img{
 
 #container1 img{
   transition: .5s ease;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2s; /* Firefox < 16 */
+    -ms-animation: fadein 2s; /* Internet Explorer */
+     -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 2s;
 }
 
 #container1 img:hover{
@@ -343,10 +348,12 @@ img{
 }
 
 .card-title{
+  width: 100%;
   margin-bottom: 5px;
 }
 
 .card-title a:link, a:visited{
+  font-size: 1vw;
   color: #24292e;
   margin: 0px;
   text-decoration: none;
@@ -354,7 +361,9 @@ img{
 }
 
 .card-title a:hover, a:active{
-  color: #e1e1e1;
+  transition: .5s ease;
+  font-size: 1vw;
+  color: #326ca7;
   margin: 0px;
   text-decoration: none;
 }
