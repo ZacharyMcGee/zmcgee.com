@@ -32,6 +32,7 @@ else
 <script src="js/firebase_initialize.js"></script>
 <script src="js/loadpage.js"></script>
 <script src="js/tabs.js"></script>
+<script src="js/typewriter.js"></script>
 
 <meta http-equiv="Cache-control" content="no-cache">
 </html>
