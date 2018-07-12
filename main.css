@@ -98,25 +98,33 @@ img{
     width: 24px; height: 24px;
     background: url('images/social-icons/github.png') no-repeat left top;
 }
-.sociallinkgithub:hover { background-position: -24px 0px }
+.sociallinkgithub:hover { 
+  background-position: -24px 0px
+}
 
 .sociallinkstackoverflow{
     width: 24px; height: 24px;
     background: url('images/social-icons/stackoverflow.png') no-repeat left top;
 }
-.sociallinkstackoverflow:hover { background-position: -24px 0px }
+.sociallinkstackoverflow:hover {
+  background-position: -24px 0px
+}
 
 .sociallinkflickr{
     width: 24px; height: 24px;
     background: url('images/social-icons/flickr.png') no-repeat left top;
 }
-.sociallinkflickr:hover { background-position: -24px 0px }
+.sociallinkflickr:hover {
+  background-position: -24px 0px
+}
 
 .sociallinklinkedin{
     width: 24px; height: 24px;
     background: url('images/social-icons/linkedin.png') no-repeat left top;
 }
-.sociallinklinkedin:hover { background-position: -24px 0px }
+.sociallinklinkedin:hover {
+  background-position: -24px 0px
+}
 
 /* Content */
 .content-home{

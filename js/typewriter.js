@@ -12,7 +12,7 @@ $(document).ready(function() {
 function type() {
     document.getElementById(ids[elementIndex]).innerHTML += captions[elementIndex][i++];
     if(i < captions[elementIndex].length){
-      setTimeout('type()', 75);
+      setTimeout('type()', 85);
     }
     else {
       if(elementIndex < ids.length - 1){
