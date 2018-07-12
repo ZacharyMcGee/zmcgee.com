@@ -1,26 +1,26 @@
-var captionLength = 0;
-var caption = '';
-
+var i = 0;
+var elementIndex = 0;
+var divs = ["line-1", "line-2"];
+var ids = ["line1", "line2"];
+var captions = ["Zachary McGee", "//Software Developer"];
 
 $(document).ready(function() {
     setInterval ('cursorAnimation()', 600);
-    captionEl = $('#caption');
-
-    testTypingEffect();
+    type();
 });
 
-function testTypingEffect() {
-    caption = "Zachary McGee";
-    type();
-}
-
 function type() {
-    captionEl.html(caption.substr(0, captionLength++));
-    if(captionLength < caption.length+1) {
-        setTimeout('type()', 75);
-    } else {
-        captionLength = 0;
-        caption = '';
+    document.getElementById(ids[elementIndex]).innerHTML += captions[elementIndex][i++];
+    if(i < captions[elementIndex].length){
+      setTimeout('type()', 75);
+    }
+    else {
+      if(elementIndex < ids.length - 1){
+        document.getElementById(divs[elementIndex]).innerHTML = "<span id=\"" + ids[elementIndex] + "\">" + captions[elementIndex++] + "</span>"
+        document.getElementById(divs[elementIndex]).innerHTML = "<span id=\"" + ids[elementIndex] + "\">" + "</span><span class=\"" + divs[elementIndex] + "\" id=\"cursor\">|</span>"
+        i = 0;
+        type();
+      }
     }
 }
 

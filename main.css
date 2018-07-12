@@ -207,12 +207,12 @@ img{
 }
 
 .line-1{
+  line-height: 80%;
   height: auto;
   margin: 0% 0 0 0;
   padding-top: 3%;
-  font-size: 36px;
+  font-size: 39px;
   white-space: nowrap;
-  overflow: hidden;
   min-width: 277px;
   max-width: 277px;
 }
@@ -225,7 +225,7 @@ img{
   color: rgba(0,0,0,.50);
   border-right: 1.3px solid rgba(0,0,0,0);
   padding-left: -1%;
-  font-size: 24px;
+  font-size: 26px;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
