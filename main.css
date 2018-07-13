@@ -98,7 +98,7 @@ img{
     width: 24px; height: 24px;
     background: url('images/social-icons/github.png') no-repeat left top;
 }
-.sociallinkgithub:hover { 
+.sociallinkgithub:hover {
   background-position: -24px 0px
 }
 
@@ -183,7 +183,7 @@ img{
   margin: 0 auto auto;
   width:31vw;
   overflow:hidden;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .bio{
@@ -233,13 +233,12 @@ img{
   color: rgba(0,0,0,.50);
   border-right: 1.3px solid rgba(0,0,0,0);
   padding-left: -1%;
-  font-size: 26px;
+  font-size: 25px;
   text-align: left;
   white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(10%);
   min-width: 277px;
   max-width: 277px;
+  padding-top: 4px;
 }
 
 .card {

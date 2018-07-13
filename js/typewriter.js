@@ -2,7 +2,7 @@ var i = 0;
 var elementIndex = 0;
 var divs = ["line-1", "line-2"];
 var ids = ["line1", "line2"];
-var captions = ["Zachary McGee", "//Software Developer"];
+var captions = ["Zachary McGee", "//Software Developer "];
 
 $(document).ready(function() {
     setInterval ('cursorAnimation()', 600);
