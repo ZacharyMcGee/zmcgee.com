@@ -186,7 +186,31 @@ img{
   padding-top: 10px;
 }
 
-.bio{
+.spacer{
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 15%;
+}
+
+.asterisk {
+  color: #b1b1b1;
+}
+
+.bio-small {
+  margin: 3% auto;
+  width: 100%;
+  font-size: 8px;
+  text-align: right;
+  color: #b1b1b1;
+  margin: 0px;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  line-height: .5rem;
+  padding-top: 5px;
+}
+
+.bio {
   margin: 3% auto;
   width: 100%;
   font-size: 14px;
