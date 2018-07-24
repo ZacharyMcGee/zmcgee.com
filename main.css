@@ -126,6 +126,71 @@ img{
   background-position: -24px 0px
 }
 
+/* Social Link Contact Version */
+
+.sociallink-contact{
+  float: left;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.sociallink-contact a {
+  padding: 6px 8px 18px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sociallinkgithub-contact{
+    width: 24px; height: 24px;
+    background: url('images/social-icons/github-contact.png') no-repeat left top;
+}
+.sociallinkgithub-contact:hover {
+  background-position: -24px 0px
+}
+
+.sociallinkflickr-contact{
+    width: 24px; height: 24px;
+    background: url('images/social-icons/flickr-contact.png') no-repeat left top;
+}
+.sociallinkflickr-contact:hover {
+  background-position: -24px 0px
+}
+
+.sociallinklinkedin-contact{
+    width: 24px; height: 24px;
+    background: url('images/social-icons/linkedin-contact.png') no-repeat left top;
+}
+.sociallinklinkedin-contact:hover {
+  background-position: -24px 0px
+}
+
+.sociallinkstackoverflow-contact{
+    width: 24px; height: 24px;
+    background: url('images/social-icons/stackoverflow-contact.png') no-repeat left top;
+}
+.sociallinkstackoverflow-contact:hover {
+  background-position: -24px 0px
+}
+
+.sociallinktwitter-contact{
+    width: 24px; height: 24px;
+    background: url('images/social-icons/twitter-contact.png') no-repeat left top;
+}
+.sociallinktwitter-contact:hover {
+  background-position: -24px 0px
+}
+
+.sociallinkinstagram-contact{
+    width: 24px; height: 24px;
+    background: url('images/social-icons/instagram-contact.png') no-repeat left top;
+}
+.sociallinkinstagram-contact:hover {
+  background-position: -24px 0px
+}
+
+
 /* Content */
 .content-home{
   -webkit-animation: fadein .5s; /* Safari, Chrome and Opera > 12.1 */
@@ -195,6 +260,19 @@ img{
 
 .asterisk {
   color: #b1b1b1;
+}
+
+.contact-header {
+  margin: 3% auto;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #24292e;
+  margin: 0px;
+  text-decoration: none;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.75rem;
+  border-bottom: 1px solid #e3e3e3;
 }
 
 .bio-small {
