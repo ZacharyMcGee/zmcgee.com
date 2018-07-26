@@ -615,37 +615,46 @@ img{
 
 .post-container
 {
+  display: inline-flex;
   text-align: center;
   padding: 15px;
+  white-space: nowrap;
 }
 .left-post
 {
   display: inline-block;
   text-align: left;
+  padding: 2px;
   background-color: #ddd;
   border-radius: 3px;
   vertical-align: top;
-  width: 70%;
-  float: left;
-  height: 100%;
+  width: 80%;
 }
 .right-post
 {
   display: inline-block;
-  width: 15%;
+  width: 250px;
   text-align: left;
-  padding: 0px 10px 0px 10px;
   background-color: #f1f1f1;
+  border-radius: 3px;
   margin-left: 15px;
 }
 
 .right-post-header {
-  padding: 0px 10px 0px 10px;
-  border: 1px solid #ddd;
+  padding: 0px 10px 0px 0px;
+  border-bottom: 1px solid #ddd;
+  color: #24292e;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
 }
 
 .right-post-body {
-
+  padding: 0px 10px 0px 3px;
+  color: #24292e;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.75rem;
+  font-size: 14px;
 }
 
 .left-post img {
