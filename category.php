@@ -4,7 +4,7 @@
 		<div id="container2">
 			<div id="container1">
         <?php
-        $sql = "SELECT id, category, title, post, featuredimg FROM Posts WHERE category='$category'";
+        $sql = "SELECT id, category, title, post, posttype, featuredimg FROM Posts WHERE category='$category'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
