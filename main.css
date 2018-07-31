@@ -7,7 +7,7 @@
 /* Global */
 html{
   min-height: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 body{
@@ -613,12 +613,19 @@ img{
   filter:alpha(opacity=70) !important; /* For IE8 and earlier */
 }
 
-.post-container
+.image-post-container
 {
   display: inline-flex;
   text-align: center;
   padding: 15px;
   white-space: nowrap;
+}
+
+.article-post-container
+{
+  display: block;
+  text-align: center;
+  padding: 15px;
 }
 .left-post
 {
@@ -676,13 +683,48 @@ img{
 }
 
 .article-post-header {
-  padding: 0px 10px 0px 0px;
+  padding: 0px 10px 5px 0px;
   border-bottom: 1px solid #ddd;
   color: #24292e;
   font-family: 'Work Sans', sans-serif;
   font-size: 18px;
   font-weight: 800;
+  text-align: left;
 }
+
+.article-post-header-sourcelink a:link {
+  padding: 0px 10px 10px 5px;
+  color: #326ca7;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  transition: .5s ease;
+  text-decoration: none;
+}
+
+.article-post-header-sourcelink a:visited {
+  padding: 0px 10px 10px 5px;
+  color: #326ca7;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  transition: .5s ease;
+  text-decoration: none;
+}
+
+.article-post-header-sourcelink a:hover {
+  padding: 0px 10px 10px 5px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: left;
+  transition: .5s ease;
+  color: #24292e;
+  text-decoration: none;
+}
+
 
 .article-post-body {
   padding: 0px 10px 0px 3px;
@@ -690,8 +732,16 @@ img{
   font-family: 'Work Sans', sans-serif;
   line-height: 1.75rem;
   font-size: 14px;
+  text-align: left;
 }
 
+.article-post-body img{
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  float: left;
+  padding-right: 4%;
+}
 
 .card-title{
   width: 100%;
