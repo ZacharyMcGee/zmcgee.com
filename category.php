@@ -4,8 +4,9 @@
 		<div id="container2">
 			<div id="container1">
         <?php
-        $sql = "SELECT id, category, title, post, posttype, featuredimg FROM Posts WHERE category='$category'";
-        $result = $conn->query($sql);
+        $sql = "SELECT id, category, title, post, posttype, featuredimg FROM posts WHERE category='$category'";
+        $result = $connect->query($sql);
+
 
         if ($result->num_rows > 0) {
             $colindex = 1;

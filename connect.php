@@ -4,7 +4,7 @@ require_once 'config.php';
 
 
 try {
-    $conn = new mysqli($servername, $username, $password, $dbname);
+    $connect = new mysqli("localhost", "root", "", "testdb");
 } catch (PDOException $pe) {
     die("Could not connect to the database :" . $pe->getMessage());
 }

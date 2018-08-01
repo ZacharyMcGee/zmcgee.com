@@ -1,7 +1,7 @@
 <div id="container" class="container">
   <?php
-  $sql = "SELECT id, category, title, post, posttype, source, featuredimg FROM Posts WHERE id='$post'";
-  $result = $conn->query($sql);
+  $sql = "SELECT id, category, title, post, posttype, source, featuredimg FROM posts WHERE id='$post'";
+  $result = $connect->query($sql);
   $row = $result->fetch_assoc();
 
   if($row["posttype"] == "image"){
